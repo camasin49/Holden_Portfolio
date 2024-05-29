@@ -9,6 +9,11 @@ function myMenuFunction(){
   }
 }
 
+function openInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function() {headerShadow()};
 
@@ -60,10 +65,11 @@ sr.reveal('.featured-image',{delay: 300})
 
 /* -- PROJECT BOX -- */
 sr.reveal('.project-box',{interval: 200})
-
 sr.reveal('.certificate-box',{interval: 200})
 sr.reveal('.certificate-box2',{interval: 200})
 sr.reveal('.certificate-box3',{interval: 200})
+sr.reveal('.certificate-box4',{interval: 200})
+sr.reveal('.journal-box',{interval: 200})
 
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})

@@ -770,3 +770,82 @@ footer{
     margin-bottom: 15px;
 }
 
+/* ----- CERTIFICATE4 BOX ----- */
+
+.certificate-container4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.certificate-box4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    height: 400px;
+    background: var(--color-white);
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+.certificate-box4>i{
+    font-size: 50px;
+    color: #00B5E7;
+    margin-bottom: 25px;
+}
+.certificate-box4 label{
+    font-size: 15px;
+    color: #777;
+}
+.certificate-box4 img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust the max-height as necessary */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* ----- JOURNAL BOX ----- */
+
+.journal-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.journal-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    height: 250px;
+    background: var(--color-white);
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+.journal-box>i{
+    font-size: 50px;
+    color: #00B5E7;
+    margin-bottom: 25px;
+}
+.journal-box label{
+    font-size: 15px;
+    color: #777;
+}
+.journal-box img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust the max-height as necessary */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
